@@ -1,0 +1,96 @@
+{
+  "libraries": [
+    {
+       "name": "Kumulos",
+       "category": "Notification",
+       "comment": "Kumulos provides tools to build and host backend storage for apps, send push notifications, view audience and behavior analytics, and report on adoption, engagement and performance.",
+       "groupid": "com.kumulos.android",
+       "artefactid": "kumulos-android-release",
+        "repo": "https://jcenter.bintray.com/"
+    },{
+        "name": "urbanairship-fcm",
+        "category": "Notification",
+        "comment": "urbanairship FCM push provider.",
+        "groupid": "com.urbanairship.android",
+        "artefactid": "urbanairship-fcm",
+        "repo": "mvn-central"
+    },{
+        "name": "urbanairship-adm",
+        "category": "Notification",
+        "comment": "urbanairship ADM push provider.",
+        "groupid": "com.urbanairship.android",
+        "artefactid": "urbanairship-adm",
+        "repo": "mvn-central"
+    },{
+        "name": "urbanairship-hms",
+        "category": "Notification",
+        "comment": "urbanairship HMS push provider.",
+        "groupid": "com.urbanairship.android",
+        "artefactid": "urbanairship-hms",
+        "repo": "mvn-central"
+    },{
+        "name": "Pusher Beams",
+        "category": "Notification",
+        "comment": "Beams is an API for sending push notifications to iOS, Android and Web applications.",
+        "groupid": "com.pusher",
+        "artefactid": "push-notifications-android",
+        "repo": "mvn-central"
+    },{
+        "name": "OneSignal",
+        "category": "Notification",
+        "comment": "OneSignal is the fastest and most reliable service to send push notifications, in-app messages, and emails to your users on mobile and web, including content management platforms like Wordpress and Shopify.",
+        "groupid": "com.onesignal",
+        "artefactid": "OneSignal",
+        "repo": "mvn-central"
+    },{
+        "name": "Taplytics",
+        "category": "Notification",
+        "comment": "Taplytics The All-In-One Product Growth Platform.",
+        "groupid": "com.taplytics.sdk",
+        "artefactid": "taplytics",
+        "repo": "https://github.com/taplytics/Taplytics-Android-SDK/raw/master/AndroidStudio/"
+    },{
+        "name": "Leanplum",
+        "category": "Notification",
+        "comment": "Maximize customer engagement by building lasting and valuable relationships through optimized multi-channel messaging and campaign orchestration.",
+        "groupid": "com.leanplum",
+        "artefactid": "leanplum-fcm",
+        "repo": "https://repo.leanplum.com/"
+    },{
+        "name": "Pushwoosh",
+        "category": "Notification",
+        "comment": "Boost user engagement and revenue with new digital marketing strategies employing push notifications, in-app messages, and more.",
+        "groupid": "com.pushwoosh",
+        "artefactid": "pushwoosh-firebase",
+        "repo": "mvn-central"
+    },{
+        "name": "IBM Cloud Push Notifications",
+        "category": "Notification",
+        "comment": "The IBM Cloud Push Notifications service provides a unified push service to send real-time notifications to mobile devices. The Push Notifications Android SDK enables Android apps to receive the sent push notifications.",
+        "groupid": "com.ibm.mobilefirstplatform.clientsdk.android",
+        "artefactid": "core",
+        "repo": "mvn-central"
+    },{
+        "name": "Jiguang-jpush",
+        "category": "Notification",
+        "comment": "JPush is a tried and tested large-scale App push platform, pushing tens of billions of messages every day. After the developer integrates the SDK, he can push messages by calling the API. ",
+        "groupid": "cn.jiguang.sdk",
+        "artefactid": "jpush",
+        "repo": "https://jcenter.bintray.com/"
+    },{
+        "name": "Getui",
+        "category": "Notification",
+        "comment": "Getui Android SDK provides a safe and stable push service module for Android applications. Developers only need to perform simple configuration and coding in the original App to quickly obtain real-time and stable message push capabilities. ",
+        "groupid": "com.getui",
+        "artefactid": "sdk",
+        "repo": "http://mvn.gt.getui.com/nexus/content/repositories/releases/"
+    },{
+        "name": "Jiguang-core",
+        "category": "Notification",
+        "comment": "JPush is a tried and tested large-scale App push platform, pushing tens of billions of messages every day. After the developer integrates the SDK, he can push messages by calling the API. ",
+        "groupid": "cn.jiguang.sdk",
+        "artefactid": "jcore",
+        "repo": "https://jcenter.bintray.com/"
+    }
+  ]
+}

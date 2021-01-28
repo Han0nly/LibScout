@@ -42,7 +42,7 @@ public class LibraryDescription implements Serializable {
 	
 	
 	public static enum LibraryCategory {
-		Advertising, Analytics, Android, /*Tracker,*/ SocialMedia, Cloud, Utilities
+		Notification, Advertising, Analytics, Android, /*Tracker,*/ SocialMedia, Cloud, Utilities
 	}
 	
 	public LibraryDescription(String name, LibraryCategory category, String version, Date date, String comment) {

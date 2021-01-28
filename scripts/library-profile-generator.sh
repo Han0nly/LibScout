@@ -26,9 +26,9 @@
 #
 
 # LibScout dir and arguments
-LIBSCOUT_ROOT="<NOTSET>"                      # path to the LibScout root directory
+LIBSCOUT_ROOT="/Users/zxh/myproject/LibScout/"                      # path to the LibScout root directory
 LIBSCOUT="$LIBSCOUT_ROOT/build/libs/LibScout.jar"
-ANDROID_SDK="<NOTSET>"                        # argument: path to Android SDK
+ANDROID_SDK="/Users/zxh/myproject/LibScout/scripts/android.jar"                        # argument: path to Android SDK
 
 LOG_DIR=""    # optional argument: enable logging via "-d <log_dir>"
 JOBS=2        # Number of parallel instances
@@ -100,7 +100,7 @@ STARTTIME=$(date +%s)
 
 # run $JOBS instances in parallel
 echo "# `find $LIBDIR -type f -name $LIBXML| wc -l` library.xml files found in $LIBDIR"
-find $LIBDIR -type f -name $LIBXML |  parallel --no-notice --jobs $JOBS "echo \" - gen profile: {//}\" ; java -jar $LIBSCOUT -o profile -m -a $ANDROID_SDK $LOG_DIR -x {} {//}"
+find $LIBDIR -type f -name $LIBXML |  parallel --no-notice --jobs $JOBS "echo \" - gen profile: {//}\" ; java -jar $LIBSCOUT -o profile -a $ANDROID_SDK $LOG_DIR -x {} {//}"
 
 ENDTIME=$(date +%s)
 echo

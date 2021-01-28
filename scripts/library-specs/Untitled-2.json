@@ -1,0 +1,34 @@
+{
+    "libraries": [
+      {
+         "name": "Kumulos",
+         "category": "Notification",
+         "comment": "Kumulos provides tools to build and host backend storage for apps, send push notifications, view audience and behavior analytics, and report on adoption, engagement and performance.",
+         "groupid": "com.kumulos.android",
+         "artefactid": "kumulos-android-release",
+          "repo": "https://jcenter.bintray.com/"
+      },{
+          "name": "Leanplum",
+          "category": "Notification",
+          "comment": "Maximize customer engagement by building lasting and valuable relationships through optimized multi-channel messaging and campaign orchestration.",
+          "groupid": "com.leanplum",
+          "artefactid": "leanplum-fcm",
+          "repo": "https://repo.leanplum.com/"
+      },{
+          "name": "Jiguang-jpush",
+          "category": "Notification",
+          "comment": "JPush is a tried and tested large-scale App push platform, pushing tens of billions of messages every day. After the developer integrates the SDK, he can push messages by calling the API. ",
+          "groupid": "cn.jiguang.sdk",
+          "artefactid": "jpush",
+          "repo": "https://jcenter.bintray.com/"
+      },{
+          "name": "Jiguang-core",
+          "category": "Notification",
+          "comment": "JPush is a tried and tested large-scale App push platform, pushing tens of billions of messages every day. After the developer integrates the SDK, he can push messages by calling the API. ",
+          "groupid": "cn.jiguang.sdk",
+          "artefactid": "jcore",
+          "repo": "https://jcenter.bintray.com/"
+      }
+    ]
+  }
+  

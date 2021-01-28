@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<library>
+    <!-- library name -->
+    <name>IBM-Cloud-Push-Notifications</name>
+
+    <!-- Advertising, Analytics, Android, SocialMedia, Cloud, Utilities -->
+    <category>Notification</category>
+
+    <!-- optional: version string -->
+    <version>2.2.7</version>
+
+    <!-- optional: date (format: dd.MM.yyyy  example: 21.05.2017) -->
+    <releasedate>01.12.2016</releasedate>
+
+    <!-- optional: comment -->
+    <comment>The IBM Cloud Push Notifications service provides a unified push service to send real-time notifications to mobile devices. The Push Notifications Android SDK enables Android apps to receive the sent push notifications.</comment>
+</library>
